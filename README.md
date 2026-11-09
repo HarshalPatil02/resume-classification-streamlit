@@ -70,4 +70,4 @@ The final prediction model is refitted on all labelled rows after evaluation. Ho
 - Resume text extraction works for text-based PDFs; scanned PDFs may require OCR and may return no text.
 - Performance depends on label quality, number of examples per role, and class balance. Small or underrepresented roles may perform poorly.
 - The model learns patterns in historical labels and may reproduce biases in those data. Do not use predictions as the sole basis for hiring or screening decisions.
-- Displayed class scores are not calibrated probabilities of job suitability.
+- Displayed class scores are not calibrated probabilities of job suitability
